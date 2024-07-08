@@ -11,7 +11,7 @@ This guide provides step-by-step instructions for setting up a Kasm multi-server
    ```sh
    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
    ```
-
+- Note: we will be using the email Mort wants us to use so that will have to be discussed.
 ## Directory Structure
 
 Create a directory to store your Terraform configuration files:
@@ -94,7 +94,7 @@ SSH into each server using the private key and install Kasm Workspaces:
 ssh -i ~/.ssh/id_rsa ubuntu@your_server_ip
 ```
 
-Follow the [Kasm Workspaces installation guide](https://www.kasmweb.com/docs/latest/installation.html) to complete the setup.
+Follow the [Kasm Workspaces installation guide](https://www.kasmweb.com/docs/latest/install/multi_server_install.html) to complete the setup.
 
 ### 2. Configure Load Balancer
 

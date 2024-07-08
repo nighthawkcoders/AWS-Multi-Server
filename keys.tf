@@ -1,5 +1,5 @@
 variable "public_key_path" {
-  default = "~/.ssh/aws-multi.pub"
+  default = ".ssh/aws-multi.pub"
 }
 
 resource "aws_key_pair" "deployer" {
